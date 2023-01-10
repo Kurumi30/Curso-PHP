@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <title>Curso de PHP</title>
+    <style>
+     .botao {
+    padding: 8px;
+    border: 2px solid rgb(98, 98, 98);
+    text-decoration: none; 
+    color: white;
+    background-color: rgb(21, 34, 47);
+    box-shadow: 2px 2px 3px #777777;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <form action="escola.php" method="get">
+            Dia da semana: <input type="number" name="ds" min="1" max="7" required="ds">
+            <input type="submit" class="botao" value="Analisar">
+        </form>
+    </div>
+</body>
+</html>

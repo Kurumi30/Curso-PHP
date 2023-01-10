@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <title>Situação dos Alunos</title>
+    <style>
+        input.botao {
+            position: relative;
+            top: 10px;
+            background-color: rgb(31, 147, 214);
+            box-shadow: gray 2px 2px 2px;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="index-exe.php" method="get">
+            Nota 1: 
+            <input type="number" name="nota1" placeholder="Digite a nota"><br>
+            Nota 2: 
+            <input type="number" name="nota2" placeholder="Digite a nota"><br>
+            <input type="submit" value="Calcular a média" class="botao">
+        </form>
+    </div>
+</body>
+</html>
